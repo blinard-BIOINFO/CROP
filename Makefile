@@ -1,5 +1,4 @@
 # Project: CROPLinux
-CXX  = g++
 OBJ  = alignment.o Unique.o bayesianclustering.o CROP.o Main.o
 LINKOBJ  = alignment.o Unique.o bayesianclustering.o CROP.o Main.o
 LIBS =  -g3 -lgsl -lgslcblas -fopenmp -m64
